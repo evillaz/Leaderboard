@@ -1,5 +1,5 @@
 import './style.css';
-import addScore from './addScore';
+import addScore from './modules/addScore';
 
 localStorage.setItem('SCORES', '[]');
 
