@@ -51,11 +51,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [To Do List] <a name="about-project"></a>
+# 📖 [Leaderboard] <a name="about-project"></a>
 
-*To Do List* is a simple HTML list of To Do tasks.
-
-- "To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.
+*Leaderboard* website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external api service.
 
 
 ## 🛠 Built With <a name="built-with"></a>
