@@ -80,3 +80,9 @@ input {
   width: max-content;
   align-self: flex-end;
 }
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 24px;
+  }
+}
