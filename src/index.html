@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leaderboard</title>
+</head>
+<body>
+  <h1>Leaderboard</h1>
+  <section id="myGameScoreBoard" class="d-flex h">
+    <div id="recentScores" class="d-flex v">
+      <div id="rsTitle" class="d-flex h">
+        <h2>Recent scores</h2>  
+        <button id="refreshBtn">Refresh</button>
+      </div>
+      <ul class="scores d-flex v">
+        <li class="score">Name: 150</li>
+        <li class="score">Name: 150</li>
+        <li class="score">Name: 150</li>
+        <li class="score">Name: 150</li>
+        <li class="score">Name: 150</li>
+        <li class="score">Name: 150</li>
+      </ul>
+    </div>
+      <form id="scoreForm" class="d-flex v">
+        <h2>Add your score</h2>
+        <label for="name"></label>
+        <input type="text" id="name" name="name" placeholder="Your name">
+        <label for="score"></label>
+        <input type="text" id="score" name="score" placeholder="Your score">
+        <input id="submitScore" type="submit" value="Submit">
+      </form>
+  </section>
+   
+
+</body>
+</html>
