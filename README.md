@@ -79,7 +79,7 @@ After you're finished please remove all the comments and instructions!
 <details>
 <summary>Database</summary>
   <ul>
-    <li>No database used</li>
+    <li><a href="https://microverse.notion.site/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3">API Database services</a></li>
   </ul>
 </details>
 
@@ -87,10 +87,10 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **[Integrate webpack, too add a bundle.js, index.html and style.css into a dist folder]**
-- **[Function to iterate over the tasks array and populate an HTML list item element for each task.]**
-- **[On page load render the dynamically created list of tasks in the dedicated placeholder. The list should appear in order of the index values for each task.]**
-- **[Create a style.css and set rules for the To Do List. CSS must be loaded by Webpack Style/CSS Loader]**
+- **[Integrate webpack, to add a bundle.js, index.html and style.css into a dist folder]**
+- **[Send and receive data from an API.]**
+- **[Understand and use JSON.]**
+- **[Make JavaScript code asynchronous.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,7 +98,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [See our first Live Demo clicking here!](https://evillaz.github.io/to-do-lst/toDoList/dist/) 
+- [See our first Live Demo clicking here!](https://evillaz.github.io/Leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,8 +133,8 @@ Run this command:
 Example command:
 
 ```sh
-  cd toDoList
-  npm start
+  cd Leaderboard
+  npm install
 ```
 
 
@@ -178,11 +178,11 @@ Visual studio code, another realiable code editor or a Web browser
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Adding a new item.
-- Removing a selected item.
-- Marking a selected item as complete.
-- Removing all items marked as complete at once.
-- Reordering a selected item (as drag-and-drop) [as an additional feature].
+- Create a new game with the name of your choice by using the API.
+- Implement the "Refresh" button that will get all scores for a game created by you from the API 
+- Implement the form "Submit" button that will save a score for a game created by you.
+- Use arrow functions instead of the function keyword.
+- Use async and await JavaScript features to consume the API.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
