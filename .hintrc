@@ -1,0 +1,11 @@
+{
+  "connector": {
+      "name": "web"
+  },
+  "extends": [
+      "web-recommended"
+  ],
+  "hints": {
+      "no-misleading-array-reverse": "off"
+  }
+}
