@@ -11,5 +11,3 @@ const addScore = (nameInput, scoreInput) => {
 };
 
 export default addScore;
-
-
