@@ -42,7 +42,7 @@ h1 {
   padding: 0.5rem 1rem;
   height: max-content;
   font-size: 1.2rem;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   border: none;
   border-radius: 0.5rem;
@@ -52,7 +52,7 @@ h1 {
 #refreshBtn:hover {
   transform: translateY(-2px);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  background-color: #3E8E41;
+  background-color: #3e8e41;
 }
 
 .scores {
@@ -115,7 +115,7 @@ input:focus {
   width: max-content;
   align-self: flex-end;
   font-size: 1.2rem;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   border: none;
   border-radius: 0.5rem;
@@ -126,7 +126,7 @@ input:focus {
 #submitScore:hover {
   transform: translateY(-2px);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  background-color: #3E8E41;
+  background-color: #3e8e41;
 }
 
 @media screen and (min-width: 768px) {
